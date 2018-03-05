@@ -6,22 +6,22 @@
 
 #### Solid
 
-![Missing: Image of red 10x10 gradient](img/10px/red_10.svg)
-![Missing: Image of orange 10x10 gradient](img/10px/orange_10.svg)
-![Missing: Image of yellow 10x10 gradient](img/10px/yellow_10.svg)
-![Missing: Image of green 10x10 gradient](img/10px/green_10.svg)
-![Missing: Image of blue 10x10 gradient](img/10px/blue_10.svg)
-![Missing: Image of purple 10x10 gradient](img/10px/purple_10.svg)
+![Missing: Image of red 10x10 gradient](docs/images/red.png)
+![Missing: Image of orange 10x10 gradient](docs/images/orange.png)
+![Missing: Image of yellow 10x10 gradient](docs/images/yellow.png)
+![Missing: Image of green 10x10 gradient](docs/images/green.png)
+![Missing: Image of blue 10x10 gradient](docs/images/blue.png)
+![Missing: Image of purple 10x10 gradient](docs/images/purple.png)
 
 #### Mixed
 
-![Missing: Image of heat 10x10 gradient](img/10px/heat_10.svg)
-![Missing: Image of grape 10x10 gradient](img/10px/grape_10.svg)
-![Missing: Image of plasma 10x10 gradient](img/10px/plasma_10.svg)
+![Missing: Image of heat 10x10 gradient](docs/images/heat.png)
+![Missing: Image of grape 10x10 gradient](docs/images/grape.png)
+![Missing: Image of plasma 10x10 gradient](docs/images/plasma.png)
 
 #### Greyscale
 
-![Missing: Image of greyscale 10x10 gradient](img/10px/greyscale_10.svg)
+![Missing: Image of greyscale 10x10 gradient](docs/images/greyscale.png)
 
 ### Simple
 
@@ -31,7 +31,10 @@ QuickHeat makes it easy to render heatmaps, simply pass in your vector matrix, d
 
 QuickHeat creates a discreet color scale to fit the range of your data. You can rest assured that any numerical data set you pass in will be properly represented on the heatmap.
 
+### Usage
+
+See [USAGE](docs/USAGE.md)
+
 ### License
 
-See [LICENSE](LICENSE.md)
-
+See [LICENSE](docs/LICENSE.md)
