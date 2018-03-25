@@ -33,7 +33,24 @@ QuickHeat creates a discreet color scale to fit the range of your data. You can 
 
 ### Usage
 
-See [USAGE](docs/USAGE.md)
+C++ implementation file
+
+```cpp
+#include "quickheat.hpp"
+
+...
+
+//  Select a colorscheme from the following preset options
+//  colorScheme{GREYSCALE, BLUE, YELLOW, RED, GREEN, HEAT, PURPLE, ORANGE, PLASMA, GRAPE, RAINBOW}
+colorScheme desiredColorScheme = BLUE;
+
+// Load data into a two-dimensional vector matrix
+std::vector<std::vector<float> > matrix;
+
+//Render the heatmap by using the following function
+render_heatmap(matrix, desiredColorScheme, "filename.svg");
+
+```
 
 ### License
 
